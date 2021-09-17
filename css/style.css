@@ -1,0 +1,734 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin:0;
+}
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:1rem 1rem 0 1rem;
+    background-image: none;
+   
+    flex-wrap: wrap;
+}
+header .logo
+{
+   
+    
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    margin-left: 2rem;
+      
+}
+header .menu-icon
+{
+    vertical-align: top;
+    
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    margin-right: 4rem;
+    
+   
+}
+.sec1
+{
+    width:100%;
+    height:110vh;
+    
+    background-image: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; 
+    
+
+}
+
+.sec1 h3{
+   
+    font-size:350%;
+    font-weight: 400;
+    margin-left:6rem;
+    height:15rem;
+    border:1px solid black;
+    padding-top:8rem;
+    text-align: left;
+    
+}
+
+.sec1 h1{
+    
+    font-size:650%;
+    font-weight: bolder;
+    margin-left: 6rem;
+    padding:0.5rem 0.5rem 0 0.5rem;
+}
+
+.sec1 hr{
+    height:2%;
+    width: 35rem;
+    background-color: white;
+    border: none;
+    margin-left: 6rem;  
+    
+}
+
+.sec1 .tool-section
+{
+   
+    margin-left: 6rem;
+    margin-top:1rem;
+}
+
+.sec1 .tool-name
+{
+    display:flex;
+    
+    margin-left: 6rem;
+    font-size: 1.1rem;
+    font-weight: lighter;
+    letter-spacing: 2px;
+
+}
+.tool-section .cleaning-tool
+{
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+.tool-name .cleaning-text
+{
+    margin-left:7.9rem;
+    margin-right: 7rem;
+}
+.sec2
+{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(233, 233, 233);
+    
+    
+}
+.sec2 .row
+{
+    text-align: center;
+    margin: auto;
+    
+}
+
+.sec2 .first
+{
+    
+    height:10rem;
+    font-size: 100%;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: rgb(119, 119, 119);
+    padding-top: 7rem;
+   
+}
+.sec2 .second
+{
+    
+    height: 5rem;
+    font-size:300%;
+    color: rgb(20, 20, 20);
+    padding: 0.5rem;
+    
+}
+.sec2 .third
+{
+    
+    height: 3%;
+    font-size:150% ;
+    align-items: center;
+    color: rgb(36, 36, 36);
+    font-weight: 200;
+    padding: 2%;
+}
+    
+.sec2 .book-now
+{
+    height:3rem;
+    border: 1px solid #ff3300;
+    width:9rem;
+    margin-top:2rem;
+    color:white;
+    background-color: #ff3300;
+    font-size:medium;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+.sec3
+{
+    width:100%;
+    height: 90vh;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+    
+
+}
+.fp .image-container1
+{
+    height: 20rem;
+    width:30rem;
+   
+    margin: 3rem 0 1rem 8rem;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    background-image: url(../images/billionphotos1882993.jpg);
+}
+.fp .para{
+    font-size: large;
+    
+    width:20rem;
+    margin: 2rem 0 0 10rem;
+    padding: 0.2rem;
+    color: rgb(49, 49, 49);
+} 
+.sp h3{
+    
+    margin: 5rem 0 0 2rem;
+    height: 3rem;
+    width: 30rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: rgb(31, 31, 31);
+}
+.sp h2{
+    
+    margin: 1rem 0 0 2rem;
+    height: 3rem;
+    width: 30rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+    color:#ff3300;
+}
+.sp .image-container2
+{
+    height: 20rem;
+    width:30rem;
+    
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    background-image: url(../images/billionphotos1883011.jpg);
+    margin: 2rem 0 1rem 2rem;
+}
+
+.sec4{
+    width:100%;
+    height: 90vh;
+    background-color: rgb(189, 181, 181);
+    display: flex;
+       
+    overflow: hidden;
+
+}
+.fp .image-container3
+{
+    
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 90vh;
+    width:30rem;
+    background-image: url(../images/billionphotos1079319min.png);
+    margin:0 0 0 5rem;
+}
+ 
+.text-part h1{
+    
+    height: 5rem;
+    font-size: 4rem;
+    color:rgba(27, 99, 233, 0.808);
+    margin: 10rem 0 0 3rem;
+}
+.text-part hr{
+   height:0.5rem;
+   background-color: #ff3300;
+   border: none;
+   width:35rem;
+   margin: 0 0 0 3rem;
+}
+.text-part p{
+    
+    text-align: justify;
+    height: 6rem;
+    width: 30rem;
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin: 1rem 0 0 3rem;
+
+}
+.text-part .book-now{
+    height:3rem;
+    
+    width:9rem;
+    margin: 2rem 0 0 3rem;
+    color:white;
+    background-color: #ff3300;
+    font-size:medium;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #ff3300;
+} 
+
+.sec5
+{
+    width:100%;
+    height: 70vh;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+}
+.sec5 .column{
+    display:flex;
+    margin: 0 0 0 4rem;
+}
+.sec5 h1{
+    
+    margin: 1rem 0 2rem 4rem;
+    height: 4rem;
+    font-size: 3rem;
+    
+}
+.column .fp
+{
+    
+    width: 25rem;
+    height:20rem;
+}
+.column .sp
+{
+    
+    width: 25rem;
+    height:20rem;
+}
+.column .tp
+{
+    
+    width: 25rem;
+    height:20rem;
+}
+.fp .dot {
+    height: 5rem;
+    width: 5rem;
+    background-color:orangered;
+    border-radius: 50%;
+    display: inline-block;
+    background-image:url(../images/004-paint.svg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 3rem;
+    padding:0.5rem;
+  }
+.fp h4
+{
+    font-size:1.5rem;
+    padding:0.5rem;
+}
+.fp p{
+    font-size: 1.3rem;
+    font-style: italic;
+    padding:0.5rem;
+}
+.sp .dot {
+    height: 5rem;
+    width: 5rem;
+    background-color:orangered;
+    border-radius: 50%;
+    display: inline-block;
+    background-image:url(../images/004-paint.svg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 3rem;
+    padding:0.5rem;
+  }
+.sp h4
+{
+    font-size:1.5rem;
+    padding:0.5rem;
+}
+.sp p{
+    font-size: 1.3rem;
+    font-style: italic;
+    padding:0.5rem;
+}
+.tp .dot {
+    height: 5rem;
+    width: 5rem;
+    background-color:orangered;
+    border-radius: 50%;
+    display: inline-block;
+    background-image:url(../images/009-screwdriver.svg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 3rem;
+    padding:0.5rem;
+  }
+.tp h4
+{
+    font-size:1.5rem;
+    padding:0.5rem;
+    
+}
+.tp p{
+    font-size: 1.3rem;
+    font-style: italic;
+    padding:0.5rem;
+}
+
+.sec6
+{
+    max-width:100%;
+    height:90vh;
+    
+    display:flex;
+    flex-wrap: wrap;
+    text-align: left;
+    background-color: rgb(32, 68, 228);
+    color: white;
+    overflow: hidden;
+
+}
+.sec6 .text-part{
+    margin:10rem 0 0 15rem;
+    width:30rem;
+}
+.sec6 h4{
+    
+    height: 3rem;
+    font-size:1rem;
+    letter-spacing: 2px;
+    font-weight: 100;
+   
+}
+.sec6 h3{
+    
+    font-size: 6rem;
+    height: 7rem;
+    font-weight: 500;
+}
+.sec6 h2{
+    
+    font-size: 7rem;
+    height: 8rem;
+    font-weight: bolder;
+}
+.sec6 .image-part
+{
+    display:flex;
+    margin: 5rem 0 0 3rem;
+    
+}
+.first-col .image-container{
+   
+    
+    height: 13rem;
+    width:13rem;
+}
+.second-col .image-container{
+    
+    height: 13rem;
+    width:13rem;
+   
+}
+
+.first-col #img1
+{
+    background-image: url(../images/frg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+.first-col #img2
+{
+    background-image: url(../images/billionphotos1882993.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 2rem;
+    
+}
+.second-col #img4
+{
+    background-image: url(../images/billionphotos1882951.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.second-col #img3
+{
+    background-image: url(../images/rg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2rem;
+    
+}
+.sec7
+{
+    width: 100%;
+    height:80vh; 
+    text-align: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.sec7 h3{
+    height: 6rem;
+    
+    font-size:2rem;
+    width:45rem;
+    margin: auto;
+    margin-top: 4rem;
+    
+}
+.sec7 p{
+    height: 9rem;
+    
+    font-size: 1.5rem;
+    width:45rem;
+    letter-spacing:2px;
+    margin: auto;
+    padding: 0.5rem;
+}
+.sec7 .book-now
+{
+    height:3rem;
+    border: 1px solid #ff3300;
+    width:9rem;
+    margin: 2rem 0 0 3rem;
+    color:white;
+    background-color: #ff3300;
+    font-size:medium;
+    border-radius: 3px;
+    cursor: pointer; 
+}
+.sec7 .call-us
+{
+    height:3rem;
+    border: 1px solid rgb(90, 90, 90);
+    text-decoration: none;
+    width:9rem;
+    margin: 2rem 0 0 3rem;
+    color:rgb(90, 90, 90);
+    background-color: white;
+    font-size:medium;
+    border-radius: 3px;
+    cursor: pointer; 
+}
+
+/*tablet view*/
+@media  (max-width:768px )
+{
+  .sec1
+  {
+      background-size:cover;
+      height:120vh; 
+      background-position: center;
+     
+  }
+ .sec3
+ {
+    height: 190vh;
+ }
+ .fp .image-container1
+ {
+    margin: 3rem 0 1rem 2rem;
+    width: 45rem;
+    background-position: center;
+    background-size: cover;
+ }
+ .sp .image-container2
+ {
+    width: 45rem;
+    background-position: center;
+    background-size: cover;
+ }
+ .fp .image-container3
+ {
+     width:15rem;
+ }
+ .text-part h1{
+     font-size: 3rem;
+     width: 15rem;
+     height:7rem;
+ }
+ .text-part hr{
+     width:20rem;
+ }
+ .text-part p
+ {
+   width: 20rem;
+   font-size:1.2rem;
+ }
+ .sec6{
+     height:190vh;
+ }
+ .sec6 .text-part
+ {
+     margin:2rem 0 0 4rem;
+ }
+ 
+.first-col .image-container{
+    width: 18rem;
+    height: 18rem;
+}
+.second-col .image-container{
+    width: 18rem;
+    height: 18rem;
+}
+.second-col
+{
+    margin-right: 2.5rem;
+}
+.first-col{
+    margin-left:2.5rem;
+
+}
+.sec5 {
+    height: 100vh;
+}
+
+}
+
+/*mobile view*/
+@media  (max-width: 375px)
+{
+    .sec1 .tool-section, .sec1 .tool-name{
+        visibility: hidden;
+    }
+    .sec1 h3{
+       font-size: 200%;
+       margin-left: 2rem;
+       margin-top:20rem;
+    }
+    .sec1 h1{
+        font-size: 400%;
+        margin-left: 2rem;
+     }
+     .sec1{
+         background-position: center;
+         background-size: cover;
+         text-align:justify;
+     }
+     .sec1 hr{
+         margin-left: 2rem;
+     }
+     .sec2 .second{
+         font-size:250%;
+     }
+     .sec3
+ {
+    height: 190vh;
+ }
+ .fp .image-container1
+ {
+    margin: 3rem 0 1rem 2rem;
+    width: 20rem;
+    background-position: center;
+    background-size: cover;
+    margin:5rem ;
+ }
+ .sp .image-container2
+ {
+    width: 20rem;
+    margin:auto;
+    background-position: center;
+    background-size: cover;
+ }
+ .fp .para{
+     width:15rem;
+     margin:auto;
+ }
+ .sec3{
+     height:210vh;
+ }
+ .sec4{
+     height: 190vh;
+     flex-direction: column;
+ }
+ .fp .image-container3{
+     width:20rem;
+ }
+ .text-part h1{
+    font-size: 3rem;
+    width: 15rem;
+    height:7rem;
+    margin:1rem;
+    margin-left:3.5rem;
+}
+.text-part hr{
+    width:20rem;
+}
+.text-part p
+{
+  width: 20rem;
+  font-size:1.2rem;
+}
+.sec5 .column{
+    display:flex;
+    flex-direction: column;
+}
+.sec5{
+    height:200vh;
+}
+.sec6{
+    height:400vh;
+}
+.sec6 .text-part{
+    margin:2rem 0 0 2rem;
+    text-align: justify;
+    font-size: medium;
+}
+.sec6 h3, .sec6 h2{
+   font-size: 300%;
+}
+.sec6  .image-part{
+  
+  flex-direction: column;
+}
+.text-part h1{
+     font-size: 3rem;
+     width: 15rem;
+     height:7rem;
+ }
+ .text-part hr{
+     width:20rem;
+ }
+ .text-part p
+ {
+   width: 20rem;
+   font-size:1.2rem;
+ }
+
+.first-col #img2
+{
+    margin-bottom: 2rem;
+}
+.image-part .image-container{
+    width: 25rem;
+    height:25rem;
+}
+
+.sec7{
+    height: 120vh;
+}
+.sec7 h3{
+    width:30rem;
+    font-size:1.4rem;
+}
+.sec7 p
+{
+    width:30rem;
+    height:20rem;
+    font-size:1.6rem;
+}
+}
