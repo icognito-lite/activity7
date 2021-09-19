@@ -538,24 +538,44 @@ header .menu-icon
   }
  .sec3
  {
-    height: 190vh;
+    height: 210vh;
+    display:flex;
+    flex-direction:column;
+    overflow-x: hidden;
+    
  }
  .fp .image-container1
  {
-    margin: 3rem 0 1rem 2rem;
-    width: 45rem;
+    margin: 3rem 0 1rem 4rem;
+    width: 90%;
+    height: 70vh;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    
+ }
+ .fp .para{
+     width:50rem;
+     text-align: justify;
+     font-style: normal;
+     margin: 2rem 0 0 4rem;
  }
  .sp .image-container2
  {
-    width: 45rem;
+    margin: 3rem 0 1rem 4rem;
+    width: 90%;
+    height: 70vh;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .sp h3, .sp h2
+ {
+    margin: 2rem 0 0 4rem;
  }
  .fp .image-container3
  {
-     width:15rem;
+     width:33rem;
  }
  .text-part h1{
      font-size: 3rem;
@@ -571,20 +591,23 @@ header .menu-icon
    font-size:1.2rem;
  }
  .sec6{
-     height:190vh;
+     height:200vh;
  }
  .sec6 .text-part
  {
-     margin:2rem 0 0 4rem;
+     margin:3rem 0 0 9rem;
+     
  }
+
  
 .first-col .image-container{
-    width: 18rem;
-    height: 18rem;
+    width: 20rem;
+    height: 20rem;
+    margin-left: 10.8rem;
 }
 .second-col .image-container{
-    width: 18rem;
-    height: 18rem;
+    width: 20rem;
+    height: 20rem;
 }
 .second-col
 {
@@ -608,7 +631,7 @@ body
 }
 
 /*mobile view*/
-@media screen and (max-width: 375px)
+@media screen and (max-width: 480px)
 {   
     body
     {
@@ -622,8 +645,9 @@ body
     .sec1 h3{
        font-size: 200%;
        margin-left: 2rem;
-       margin-top:20rem;
+       
     }
+   
     .sec1 h1{
         font-size: 400%;
         margin-left: 2rem;
@@ -639,18 +663,27 @@ body
      .sec2 .second{
          font-size:250%;
      }
-     .sec3
- {
-    height: 190vh;
- }
+     
+ 
+ 
  .fp .image-container1
  {
     margin: 3rem 0 1rem 2rem;
     width: 20rem;
     background-position: center;
     background-size: cover;
-    margin:5rem ;
+    margin:auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
  }
+ .sp h3
+ {
+     margin: 1rem 0 1rem 8rem;
+ }
+ .sp h2
+{
+    margin: 1rem 0 1rem 8rem;
+}
  .sp .image-container2
  {
     width: 20rem;
@@ -663,7 +696,10 @@ body
      margin:auto;
  }
  .sec3{
-     height:210vh;
+     height:200vh;
+     display: flex;
+     flex-direction: column;
+     
  }
  .sec4{
      height: 190vh;
@@ -671,6 +707,10 @@ body
  }
  .fp .image-container3{
      width:20rem;
+     margin:auto;
+ }
+ .sec4 .text-part{
+     margin:auto;
  }
  .text-part h1{
     font-size: 3rem;
@@ -695,7 +735,7 @@ body
     height:200vh;
 }
 .sec6{
-    height:400vh;
+    height:375vh;
 }
 .sec6 .text-part{
     margin:2rem 0 0 2rem;
@@ -703,7 +743,11 @@ body
     font-size: medium;
 }
 .sec6 h3, .sec6 h2{
-   font-size: 300%;
+   font-size: 600%;
+}
+.sec6 h2
+{
+    height:4rem;
 }
 .sec6  .image-part{
   
@@ -726,6 +770,21 @@ body
 .first-col #img2
 {
     margin-bottom: 2rem;
+    margin-left:3.6rem;
+}
+.first-col #img1
+{
+    
+    margin-left:3.6rem;
+}
+.second-col #img3
+{
+    margin:auto;
+    margin-left: 6rem;
+}
+.second-col #img4
+{ 
+    margin: 2rem 0 0 6rem;
 }
 .image-part .image-container{
     width: 25rem;
@@ -742,7 +801,11 @@ body
 .sec7 p
 {
     width:30rem;
-    height:20rem;
+    height:15rem;
     font-size:1.6rem;
+}
+.sec7 .call-us{
+    display: block;
+    margin: 2rem 14rem 0 17rem;
 }
 }
